@@ -1,0 +1,476 @@
+body{
+    background-color: transparent;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+.navbar{
+    color:white;
+    font-size:18px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline;
+    margin:15px;
+    width:100%;
+    padding:20px;
+    line-height: 10px;
+
+    float:right;
+}
+/*.nav li{
+    list-style-type: none;
+    color:white;
+    display: inline;
+    padding:15px;
+     
+}
+.nav li:hover{
+    background-color: lightblue;
+    
+    cursor:pointer;
+}*/
+
+.right-nav{ 
+    width:100%;
+    margin:20px;
+    padding:25px;
+    color:black;
+    font-size:20px;
+    font-weight: 500;
+    display:inline;
+    list-style-type: none;
+    position: relative;
+    left:400px;
+    top:0px;
+    bottom:1000px;
+    
+}
+
+.right-nav li{
+        list-style-type: none;
+        display:inline;
+        
+    
+        }
+.right-nav li:hover{
+        color:white;
+        cursor: pointer;
+        list-style-type: none;
+        
+        }
+    
+h2{
+   float: left;
+   font-size:20px;
+   text-transform: capitalize;
+   bottom:800px;
+   top:-80px;
+   padding-right: 30px;
+   padding-left:20px;
+}
+.para1{
+    position: relative;
+        width: 100px;
+        margin: 0 auto;
+}
+.para2{
+    position:relative;
+    width: 100px;
+    float:left;
+    margin:0 auto;
+}
+.cafe img{
+    vertical-align:bottom ;
+}
+.navbar img{
+    vertical-align:bottom ;
+}
+.para1{
+    position: absolute;
+    top: 15%;
+    background: rgb(0, 0, 0);   
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+    float: right;
+}
+ .para2{
+    position: absolute;
+        bottom: 0%;
+        background: rgb(0, 0, 0);   
+        background: rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        width: 80%;
+        padding: 40px;
+        float:right;
+}
+/*.navbar .nav{
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);   
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 90%;
+    padding: 20px;
+}*/
+
+.cafe{
+   /* position:relative;
+    max-width: 1400px;
+    height: 1000px;
+    margin:0 auto;
+    padding:100px 0;
+    background-repeat: no-repeat;*/
+
+  /* position:relative;
+    max-width: 1200px;
+    height: auto;
+    margin:0 auto;
+    text-align:left;
+    float:left;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    padding:100px 0;*/
+
+    position:relative;
+    max-width: 100%;
+    margin:0 auto;
+    display:inline;
+    padding:20px;
+    margin:10px;
+}
+
+.cafe2 {
+    position: absolute;
+    bottom: 150px;
+    right: 80px;
+    background-color: black;
+    color: white;
+    padding-right: 40px;
+    float: right;
+    padding:20px;
+
+   
+} 
+
+.cafe1 {
+   /* width:300px;
+    display:inline;
+    height:auto;
+    background-color: brown;
+    color:white;
+    font-size:15px;
+    text-transform: capitalize;
+    float:left;
+    padding:20px 10px;
+    margin:0 50px;
+    text-align: left;*/
+
+    position: absolute;
+    bottom: 150px;
+    left: 80px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    padding-right: 20px;
+    float: left;
+    padding:20px;
+  }
+  h3 {
+    position: relative;
+    bottom: 750px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    float: left;
+  }
+  
+h2{
+    position: relative;
+    top: 0
+    px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    float: left;
+}
+
+
+.Aboutus{
+    position:relative;
+    max-width: 1600px;
+    margin:0 auto;
+}
+.Aboutus img{
+    vertical-align:middle;
+}
+.Aboutus .text{
+    position:absolute;
+    bottom:500px;
+    background: rgb(0, 0, 0);  /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);  /* Black background with opacity */
+    color:#ffffff;
+    width:500px;
+    padding:20px;
+}
+
+.Contact1{
+    position:relative;
+    max-width:1600px;
+    margin:0 auto
+}
+.Contact1 img{
+    vertical-align: middle;
+}
+.Contact1 .contact{
+    position:absolute;
+    bottom:0;
+    background: rgb(0,0,0);   
+    background: rgba(0,0,0,0.5);   
+    color:white;
+    width:500px;
+    padding:20px;
+    /*float:left;*/
+}
+.Contact1 .contact2{
+    position:absolute;
+    top:20%;
+    background:rgb(0,0,0);   
+    background: rgba(0,0,0,0.5);     
+    color:white;
+    width:500px;
+    padding:20px;
+    /*float:right;*/
+}
+
+.tel,.email:hover{
+    background-color: transparent;
+    color:blue;
+    cursor:pointer;
+}
+.tel, .email{
+    font-size:20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 15px;
+}
+.c2:hover{
+    background-color: transparent;
+    color:black;
+    cursor:pointer;
+}
+.c2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 15px;
+}
+
+/*.cafe .cafe1{
+    position:relative;
+    left:100px;
+    background: rgb(0, 0, 0);  
+    background: rgba(0, 0, 0, 0.5);  
+    color:#f1f1f1;
+    width:700px;
+    padding:40px;
+   display:inline;
+    float:left;
+}
+.cafe .cafe2{
+    position:relative;
+    right: 100px;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);  
+    color:#f1f1f1;
+    width:700px;
+    padding:40px;
+    float:right;
+    display:inline;
+}*/
+
+.contact{
+    position:relative;
+    width: 900px;
+    height: auto;
+    margin:0 auto;
+    float:left;
+    font-size: 20px;
+}
+.contact2{
+    position:relative;
+    width: 900px;
+    height: auto;
+    margin:0 auto;
+    float:right;
+    padding:25px;
+
+    
+}
+input[type=text]{
+    font-size:20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 15px;
+}
+.Icappu{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.Icappu2{
+    width:300px;
+    height: 100px;
+    display:inline-block;
+}
+.Iamericano{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.Iamericano2{
+    width:300px;
+    height: 100px;
+    display:inline-block;
+}
+.Imilkylatte{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+.Imilkylatte2{
+    width:300px;
+    height: 100px;
+    display:inline-block;
+}
+.Iespresso{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.Iespresso2{
+    width:300px;
+    height: 100px;
+    display:inline-block;
+}
+.hcappu{
+   /* width:100px;
+    height: 100px;
+    display:inline-block;*/
+
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+.hcappu2{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+hcappu2 li{
+    list-style-type: none;
+}
+.Hamerico{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+.Hamerico2{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.Hlatte{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.Hlatte2{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.Hespresso{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+.Hespresso2{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    display:inline-block;
+}
+.button{
+    background-color: transparent;
+    color: grey;
+    padding:10px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: transparent;
+    color: white;
+    padding:10px;
+    margin:10px;
+    cursor: pointer;
+}
+.button1:hover{
+    cursor:pointer;
+    background-color: white;
+}
+
+.button:hover{
+    background-color: white;
+    cursor:pointer;
+}
+
